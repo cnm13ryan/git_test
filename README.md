@@ -1,5 +1,5 @@
 # git_test
-My nth GitHub repo !
+My n-th GitHub repo !
 Hello Bryan
 
 
