@@ -1,0 +1,94 @@
+body {
+  background-color: #a7dbe3;
+  color: white;
+  font-size: 21px;
+}
+
+h1 {
+  font-size: 70px;
+  color: #3747b3;
+}
+
+p {
+  color: #2f4c5c;
+}
+
+/* The CSS Box model */
+
+ /*
+ * margin: adjust the space in between two or more borders of adjacent boxes 
+ *
+ * padding: adjust the space in between the border of a box and the content of the box.
+ * 
+ * border: adjust the space (even if it is only a pixel or two) between the margin and the padding
+ * 
+ * All of these add on top of the width and height
+ */
+
+.box {
+  background-color: pink;
+  width: 300px;  
+  margin: 100px;
+  /*
+  margin-bottom: 100px;
+  margin-left:200px;
+  margin-right:200px;
+  margin-top:50px;
+  */
+  margin: 100px 0 25px;
+  /*100px on top 0px on left and right 25px at bottom */
+
+  border-width: 10px;
+  border-color: red;
+  border-style: solid;
+
+  border-left-color: green;
+  border-left-style: solid;
+  border-left-width: 5px;
+
+  border-right-color: blue;
+  border-right-style: solid;
+  border-right-width: 20px;
+
+  /* short cut */
+  border: 15px solid green;
+  border-left: 15px solid blue;
+  border-right: 15px solid red;
+  border-style: double;
+
+  /*both padding and maragin are very similar
+   * They both create empty space.
+   * But the major difference is that 
+   * margin creates an empty space without a background color
+   * padding creates an empty space with a background color
+   */
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-bottom: 300px;
+
+  /* Short cut for padding*/
+  padding: 50px 100px 300px 25px; 
+  /*top right bottom left */
+  padding: 100px;
+  /* 100px on all four sides */
+  padding: 100px 25px;
+  /* 100px on top and bottom 25px on left and right*/
+
+
+  /* For example:
+   *
+   * width: 300px;
+   *
+   * margin: 100px;
+   * border: 10px solid red;
+   * padding: 100px 25px;
+   *
+   * Then the total width of the entire box is: 
+   * 300px + 100px + 100px + 10px + 10px + 25px + 25px = 575px
+   * 
+   * If there are multiple boxes next to each other, if the total width is over the capacity 
+   * Then the two elements do not stay next to each other, but rather top and bottom to each other.
+   * */
+
+}

@@ -1,0 +1,56 @@
+/* External CSS */
+/* Rule 1 */
+body {
+  background-color: #00CCFF;
+  color: white;
+  font-size: 25px;
+}
+
+/* Rule 2 */
+p {
+  color: #000;
+}
+
+/* Rule 3 */
+h1 {
+  font-size: 70px;
+  color: red;
+}
+/*
+div {
+  background-color: pink;
+  width: 1000px;
+  height: 500px;
+}
+*/
+/*
+span {
+  color: yellow;
+  font-size: 50px;
+  font-family: Arial;
+  font-weight: bold;
+}
+*/
+
+.top-section{
+  background: pink;
+}
+
+.bottom-section{
+  background: green;
+}
+
+.intro{
+  font-size: 32px;
+}
+
+.highlight{
+  background: yellow;
+}
+
+.accent-color{
+  color: red;
+}
+div.bold-text{
+  font-weight: 700px;
+}

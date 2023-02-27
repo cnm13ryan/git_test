@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+
+.box-one{
+  background-color: #EB5757;
+  padding: 5px; /*This adjusts the space in between the border and the content*/
+  /*In other words, padding is to add background to an element, a wrapper to go around the content*/
+
+  border: 10px solid #9B51E0;/*This adjust the space in between the border and the margin*/
+  /*In other words, border provides some kind of wrapper to go around the padding and the content*/
+
+  margin: 60px;/*This adjust the space in between two or more adjacent boxes and the the current targeting box*/
+  /*In other words, margin provides a distance between this box(including content, padding, and border) and another box*/
+  
+  height: 100px; /*This helps to adjust the height of the box of the actual content */
+  width: 100px; /*This helps to adjust the width of the box of the actual content */
+}
+
+.box-two{
+  background-color: #2D9CDB;
+  border: 0 solid #27AE60;
+  
+  padding: 5px; /*This adjusts the space in between the border and the content*/
+  /*In other words, padding is to add background to an element, a wrapper to go around the content*/
+
+  border: 10px solid #9B51E0;/*This adjust the space in between the border and the margin*/
+  /*In other words, border provides some kind of wrapper to go around the padding and the content*/
+  margin: 30px;
+  /*Note: the margin "BETWEEN TWO BOXES" is determined by the largest margin */
+  height: 100px;
+  width: 100px;
+
+  box-sizing: border-box;
+}
